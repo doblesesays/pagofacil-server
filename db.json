@@ -1,0 +1,37 @@
+{
+  "users":
+    [
+      {
+        "ci": "12345678",
+        "operators": [
+          {
+            "digitel": {
+              "number": "04125555555",
+              "movil": 120000,
+              "internet": 50000
+            }
+          },
+          {
+            "movistar": {
+              "number": "04145555555",
+              "movil": 120000,
+              "fijo": 50000,
+              "internet": 120000,
+              "tv": 50000
+            }
+          }
+        ],
+        "bank": {
+          "card_number": 1111222233334444,
+          "expiration": "12/12/1212",
+          "pin": 1111,
+          "balance": 1200000
+        }
+      },
+      {
+        "ci": "12345678",
+        "operators": [],
+        "bank": {}
+      }
+    ]
+}

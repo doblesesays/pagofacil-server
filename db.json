@@ -1,37 +1,41 @@
-{
-  "users":
-    [
-      {
-        "ci": "12345678",
-        "operators": [
-          {
-            "digitel": {
-              "number": "04125555555",
-              "movil": 120000,
-              "internet": 50000
-            }
-          },
-          {
-            "movistar": {
-              "number": "04145555555",
-              "movil": 120000,
-              "fijo": 50000,
-              "internet": 120000,
-              "tv": 50000
-            }
-          }
-        ],
-        "bank": {
-          "card_number": 1111222233334444,
-          "expiration": "12/12/1212",
-          "pin": 1111,
-          "balance": 1200000
+[
+  {
+    "ci": "V12345678",
+    "operators": {
+      "movistar": {
+        "móvil": {
+          "number": "04144986185",
+          "balance": 120000
+        },
+        "fijo": {
+          "number": "02423645689",
+          "balance": 1200
         }
       },
+      "digitel": {
+        "móvil": {
+          "number": "04125555555",
+          "balance": 120000
+        },
+        "internet": {
+          "number": "04125555555",
+          "balance": -1200
+        }
+      }
+    },
+    "targets": [
       {
-        "ci": "12345678",
-        "operators": [],
-        "bank": {}
+        "number": 1111222233334444,
+        "due_date": "12/1212",
+        "pin": 1111,
+        "balance": 12000
+      },
+      {
+        "number": 1111222233335555,
+        "due_date": "12/2020",
+        "pin": 1111,
+        "balance": 100000
       }
     ]
-}
+  }
+]

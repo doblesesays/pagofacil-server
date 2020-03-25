@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "ci": "V12345678",
+      "id": "V12345678",
       "operators": {
         "movistar": {
           "móvil": {

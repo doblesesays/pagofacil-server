@@ -1,41 +1,43 @@
-[
-  {
-    "ci": "V12345678",
-    "operators": {
-      "movistar": {
-        "móvil": {
-          "number": "04144986185",
-          "balance": 120000
+{
+  "users": [
+    {
+      "ci": "V12345678",
+      "operators": {
+        "movistar": {
+          "móvil": {
+            "number": "04144986185",
+            "balance": 120000
+          },
+          "fijo": {
+            "number": "02423645689",
+            "balance": 1200
+          }
         },
-        "fijo": {
-          "number": "02423645689",
-          "balance": 1200
+        "digitel": {
+          "móvil": {
+            "number": "04125555555",
+            "balance": 120000
+          },
+          "internet": {
+            "number": "04125555555",
+            "balance": -1200
+          }
         }
       },
-      "digitel": {
-        "móvil": {
-          "number": "04125555555",
-          "balance": 120000
+      "targets": [
+        {
+          "number": 1111222233334444,
+          "due_date": "12/1212",
+          "pin": 1111,
+          "balance": 12000
         },
-        "internet": {
-          "number": "04125555555",
-          "balance": -1200
+        {
+          "number": 1111222233335555,
+          "due_date": "12/2020",
+          "pin": 1111,
+          "balance": 100000
         }
-      }
-    },
-    "targets": [
-      {
-        "number": 1111222233334444,
-        "due_date": "12/1212",
-        "pin": 1111,
-        "balance": 12000
-      },
-      {
-        "number": 1111222233335555,
-        "due_date": "12/2020",
-        "pin": 1111,
-        "balance": 100000
-      }
-    ]
-  }
-]
+      ]
+    }
+  ]
+}
